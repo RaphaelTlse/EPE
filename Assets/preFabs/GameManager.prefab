@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2594345945275942021
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 179944262601672264}
+  - component: {fileID: 7581586100819152748}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: GameManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &179944262601672264
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2594345945275942021}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.37, y: 0.33000004, z: 15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7581586100819152748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2594345945275942021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8598e274145a32347a26c80f244fa6ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  preFabMusic: {fileID: 7239095678042683425, guid: 97830a524dc44c542a1bb0e03066de27,
+    type: 3}
+  preFabKeyManager: {fileID: 8566334002195979143, guid: 13da90bfd9653c743b112b5cf51f09cd,
+    type: 3}
+  preFabServer: {fileID: 830263664466729511, guid: 2e97caf4642e8c643ae3341f28856b0b,
+    type: 3}
+  preFabSlider: {fileID: 6376632809400004948, guid: a6a6fd4578c74274db913318ae84cc9f,
+    type: 3}
+  preFabCollisionBar: {fileID: 4155593719497129968, guid: 0131f3a4fb1d76644b8cd5a7838a4566,
+    type: 3}
+  preFabScore: {fileID: 947564677340229119, guid: 247df3781487a39448d9b8a21924493e,
+    type: 3}
+  preFabPiano: {fileID: 1687438309148012875, guid: 0e67e0bb471b6f440b11f3598683b4a8,
+    type: 3}
+  preFabCombo: {fileID: 761283253271926170, guid: eb1db16f20bf0c544be1205e16796849,
+    type: 3}
+  server: {fileID: 0}
+  music: {fileID: 0}
+  keyManager: {fileID: 0}
+  score: {fileID: 0}
+  combo: {fileID: 0}
+  gamePaused: 0
